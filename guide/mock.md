@@ -42,7 +42,7 @@ this.$api.get('mock/test').then(res => {
 
 这时候可以在控制台看到 mock 数据正常打印出来了。
 
-![](/vue2/mock1.png)
+![](/mock1.png)
 
 你可能会问，我在 `test.js` 里定义的 `url` 是 `test` ，为什么在调用接口的时候，需要写成 `mock/test` ，这其实是框架的 mock 约定，在 `/src/mock/index.js` 里可以看到这句代码：
 
@@ -290,7 +290,7 @@ module.exports = {
 
 剩下的操作和方案一类似，在 `/src/mock/modules/` 目录下新增 js 文件，然后在里面编写 mock 数据代码即可。
 
-区别在于，mock 和真实接口切换调试则是需要把 `/mock` 换成 `/api` 
+区别在于，mock 和真实接口切换调试则是需要把 `/mock` 换成 `/api`
 
 ```js
 // mock

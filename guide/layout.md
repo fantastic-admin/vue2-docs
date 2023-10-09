@@ -6,13 +6,13 @@
 
 项目默认显示**双侧边栏布局**，即区分主导航和次导航，展示效果如下：
 
-![](/vue2/basic-layout-default.png)
+![](/basic-layout-default.png)
 
 ## 头部导航布局
 
 **头部导航布局**只需在 `/src/setting.js` 设置 `showHeader: true` 即可，展示效果如下：
 
-![](/vue2/basic-layout-header.png)
+![](/basic-layout-header.png)
 
 ## 单侧边栏布局
 
@@ -48,7 +48,7 @@ let asyncRoutes = [
 
 展示效果如下：
 
-![](/vue2/basic-layout-without-main-sidebar.png)
+![](/basic-layout-without-main-sidebar.png)
 
 **单侧边栏布局**其实就是去掉了主导航，当只有一个主导航，或者其它主导航下面都没有次导航的时候，布局就自动切换为**单侧边栏布局**。这种布局适合在功能模块不多的中小型后台系统使用。
 
